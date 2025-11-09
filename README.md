@@ -12,7 +12,7 @@ Simply change the `ntfyTopic` variable in the code to your desired topic name an
 Add a new cron job to run this script at your desired frequency. For example, to run it every day at 9 AM, you can add the following line to your crontab:
 
 ```bash
-0 9 * * * /usr/local/go/bin/go run /path/to/this/script/main.go
+0 9 * * * /usr/local/go/bin/go run /path/to/this/script/scraper.go
 ```
 
 ## Tools used
