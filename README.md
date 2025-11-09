@@ -16,5 +16,5 @@ Add a new cron job to run this script at your desired frequency. For example, to
 ```
 
 ## Tools used
-- Colly for scraping the page
-- ntfy.sh for notifying
+- [Colly](https://github.com/gocolly/colly) for scraping the page
+- [ntfy.sh](https://ntfy.sh/) for notifying
