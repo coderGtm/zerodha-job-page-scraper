@@ -1,6 +1,6 @@
 # Zerodha Job Page Scraper
 
-This is a very simple script I wrote to be notified whenever there is a job posting on the [Careers page](https://careers.zerodha.com/) of Zerodha.
+This is a very simple Go script I wrote to be notified whenever there is a job posting on the [Careers page](https://careers.zerodha.com/) of Zerodha.
 
 ## How it works?
 It simply searches for this text on the Careers page: "There are no job openings currently."
@@ -14,6 +14,9 @@ Add a new cron job to run this script at your desired frequency. For example, to
 ```bash
 0 9 * * * /usr/local/go/bin/go run /path/to/this/script/scraper.go
 ```
+
+> [!CAUTION]
+> Avoid running this script repeatedly in short intervals. Scrape responsibly.
 
 ## Tools used
 - [Colly](https://github.com/gocolly/colly) for scraping the page
